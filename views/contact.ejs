@@ -1,0 +1,40 @@
+<!-- header -->
+<%- include partials/header.ejs %>
+
+<form class="contact" action="" method="POST">
+
+    <div>
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </div>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+    </div>
+    <div>
+        <label for="subject">Subject</label>
+        <div>
+            <input type="text" name="subject" id="subject" placeholder="Subject Title">
+        </div>
+    </div>
+    <div>
+        <label for="inputMessage">Message</label>
+        <div>
+            <textarea name="message" id="message" rows="3"></textarea>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <button type="submit" >Submit</button>
+
+            </div>
+        </div>
+    </form>
+<!-- Footer -->
+<%- include partials/footer.ejs %>
