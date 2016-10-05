@@ -33,7 +33,7 @@ nav a{
 }
 
 nav a:hover{
-    color: gold;
+    color: #E82320;
 }
 
 .container{
@@ -45,7 +45,7 @@ nav a:hover{
 
 /* index */
 .image{
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/background.jpg");
     height: 100vh;
     overflow: hidden;
     background-attachment: fixed;
@@ -59,14 +59,25 @@ nav a:hover{
     font-weight: 600;
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 35%;
     width: 100%;
     text-align: center;
     color: #FFF;
 }
+
+.subtitle{
+    font-size: 40px;
+    color: #E82320;
+    display: block;
+
+}
 /* About */
 p{
     display: initial;
+}
+
+h3{
+    font-size: 25px;
 }
 
 #profile{
