@@ -85,6 +85,13 @@ h3{
     margin: 0 1em 1em 0;
 }
 
+/* Service */
+
+.skill{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 /* contact */
 input {
     width: 100%;
