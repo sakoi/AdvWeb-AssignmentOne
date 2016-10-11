@@ -92,6 +92,16 @@ h3{
     margin-right: 15px;
 }
 
+.skillText{
+    padding-top:5em;
+    float: left;
+    width:480px;
+}
+
+.skillText h2{
+    text-align: center;
+}
+
 /* contact */
 input {
     width: 100%;
