@@ -1,3 +1,10 @@
+/*
+ File Name: index.ks
+ Author's name: Kayla Wiest
+ Web site name: kaylawiest.com
+ File description: Contains the route.get functions for all content pages
+*/
+
 var express = require('express');
 var router = express.Router();
 
