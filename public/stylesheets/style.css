@@ -49,7 +49,11 @@ nav a:hover{
     margin-left: 15em;
 }
 
-/* index */
+p {
+    display: initial;
+}
+
+/* -- Index  Page -- */
 .image{
     background-image: url("../images/background.jpg");
     height: 100vh;
@@ -72,50 +76,46 @@ nav a:hover{
 }
 
 .subtitle{
-    font-size: 40px;
+    font-size: 50px;
     color: #E82320;
     display: block;
 
 }
-/* About */
-p{
-    display: initial;
-}
-
-h3{
-    font-size: 25px;
-}
-
+/* -- About Page -- */
 #profile{
     float:left;
     margin: 0 1em 1em 0;
 }
 
-/* Service */
+/* -- Service Page --*/
 
 .skill{
     margin-left: 15px;
     margin-right: 15px;
 }
 
+.box{
+    text-align: center;
+}
+
 .skillText{
     padding-top:5em;
+    display: block;
     float: left;
-    width:480px;
+    width:450px;
 }
 
 .skillText h2{
     text-align: center;
 }
 
-/* contact */
+/* -- Contact Page -- */
 input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
-
 
 textarea {
     width: 97%;
@@ -124,6 +124,7 @@ textarea {
         resize: none;
 }
 
+/* -- Footer -- */
 footer {
     bottom:0;
     position: fixed;
@@ -131,6 +132,6 @@ footer {
     width: 100%;
     padding-bottom: 20px;
     height: .5em;
-    background-color: #404040;
+    background-color: #333333;
     color: #FFF;
 }
