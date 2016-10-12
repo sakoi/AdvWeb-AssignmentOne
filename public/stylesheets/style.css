@@ -65,20 +65,21 @@ p {
 }
 
 .caption{
-    font-size: 125px;
+    font-size: 150px;
     font-weight: 600;
     position: absolute;
     left: 0;
     top: 35%;
     width: 100%;
     text-align: center;
-    color: #FFF;
+    color: #E82320;
 }
 
 .subtitle{
     font-size: 50px;
-    color: #E82320;
+    color: #FFF;
     display: block;
+    -webkit-text-stroke: .5px #333;
 
 }
 /* -- About Page -- */
